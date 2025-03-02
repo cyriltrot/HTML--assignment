@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        nav {
+            display: flex;
+            justify-content: space-between;
+
+            align-items: center;
+            background-color: #222;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Hero Section */
+        .hero {
+
+            text-align: center;
+            padding: 50px;
+            background-color: #008CBA;
+            color: white;
+        }
+
+        .hero img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        /* Sections */
+        section {
+            padding: 30px;
+            background: white;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+        /* Skills Section */
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skills-list li {
+            background: #008CBA;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            list-style: none;
+        }
+
+        /* Projects Section */
+        .project {
+            background: #eee;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+
+        }
+
+        /* Contact Section */
+        #contact a {
+            color: #008CBA;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <h2 class="logo">My Portfolio</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <img src="profile.jpg.jpg" alt="My Profile Picture">
+        <h1>Trot-Amekudzi Cyril Etumte Besah</h1>
+        <p>Level 100 Computer Engineering Student at KNUST</p>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am passionate about Computer Engineering and basketball with interests in Avionics, Embedded Systems, and Circuit Design.  I enjoy solving complex problems and playing sports.</p>
+        <h3>Hobbies</h3>
+        <ul>
+            <li>Basketball</li>
+
+            <li>Mathematics</li>
+            <li>Movies</li>
+        </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML & CSS</li>
+            <li>Microsoft excel</li>
+            <li>Python</li>
+            
+        </ul>
+    </section>
+
+    <!--My Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Electronic Circuit Design</h3>
+
+            <p>Designed a simple led chaser circuit using kicad.</p>
+        </div>
+        <div class="project">
+            <h3>Basic Web Page</h3>
+            <p>Created an interactive webpage using HTML and CSS.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:cyriltrot27@gmail.com">cyriltrot27gmail.com</a></p>
+        <p>phone no<a href="tel: +233 201245961"> +233 201245691 </a></p>
+        
+    </section>
+
+</body>
+</html>
